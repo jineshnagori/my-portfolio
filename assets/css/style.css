@@ -3813,3 +3813,50 @@ BLOG Pagination
   border-top: 1px solid #e7ecf1;
   padding: 25px 0;
 }
+
+.testo {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#name {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+#position {
+  font-size: 0.7rem;
+}
+
+.card-text {
+  text-align: center;
+  padding: 1rem 2rem;
+  color: rgb(82, 81, 81);
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px -10px 0px rgb(237,29,37);
+}
+
+.card-footer {
+    border-top: none;
+    text-align: center;
+    line-height: 1.2rem;
+    padding: 2rem 0 1.4rem 0;
+}
+
+.clients {
+    width: 6.2rem;
+    border-radius: 5rem;
+    margin: 1.3rem auto 1rem auto;
+    border-style: solid;
+    border-color: rgb(237,29,37);
+}
+
+.c-card {
+  display: flex;
+  align-content: stretch;
+}
