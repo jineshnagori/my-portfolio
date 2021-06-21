@@ -1,0 +1,122 @@
+import React from 'react'
+
+export default function Projects() {
+    return (
+        <>
+            <section className="projects" id="projects">
+                <div className="container">
+                    <div className="row section-separator">
+                        <div className="section-title col-sm-12">
+                            <h3>Completed Projects</h3>
+                        </div>
+                        <div className="part col-sm-12">
+                            <div className="project-gallery col-sm-12" id="project-gallery">
+                                <div className="projectsContainer row">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g1.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Xccurate Security</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://xccuratesecurity.in"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                        <figure>
+                                            <img src="assets/images/projects/g2.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Beta Programmer</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://www.betaprogrammer.ml"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g3.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Easy Recharge</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="https://jineshnagori.github.io/easyRecharge/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                        <figure>
+                                            <img src="assets/images/projects/g4.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Links | Beta Programmer</h5>
+                                                <span className="sub-title">Link-Tree</span>
+                                                <a href="https://links.betaprogrammer.ml"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g6.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Links | The Geeky Boy</h5>
+                                                <span className="sub-title">Link-Tree</span>
+                                                <a href="https://links.thegeekyb0y.ml"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                        <figure>
+                                            <img src="assets/images/projects/g5.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Links | Xccurate Security</h5>
+                                                <span className="sub-title">Link-Tree</span>
+                                                <a href="https://links.xccuratesecurity.in"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g9.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Codevic</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="http://codevic.epizy.com/home_page/index.html"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g8.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Funny Game</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="https://jineshnagori.github.io/healthcare-funds/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g7.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Xccurate Security</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="https://jineshnagori.github.io/Xccurate-Security"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </>
+    )
+}
