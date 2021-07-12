@@ -14,12 +14,34 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
                                         <figure>
+                                            <img src="assets/images/projects/g11.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">#YACSOCIETY</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://www.yacsociety.in"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
                                             <img src="assets/images/projects/g1.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Xccurate Security</h5>
                                                 <span className="sub-title">Front-end</span>
                                                 <a href="https://xccuratesecurity.in"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g13.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Akshat Singh</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://akshatsingh.ga"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -42,6 +64,39 @@ export default function Projects() {
                                                 <h5 className="title">Easy Recharge</h5>
                                                 <span className="sub-title">Open-Source</span>
                                                 <a href="https://jineshnagori.github.io/easyRecharge/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g12.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">FreeBookPost</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="https://github.com/jineshnagori/FreeBookPost"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g9.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Codevic</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="http://codevic.epizy.com/home_page/index.html"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                        <figure>
+                                            <img src="assets/images/projects/g7.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Xccurate Security</h5>
+                                                <span className="sub-title">Open-Source</span>
+                                                <a href="https://jineshnagori.github.io/Xccurate-Security"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -78,36 +133,14 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
                                         <figure>
-                                            <img src="assets/images/projects/g9.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g10.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
-                                                <h5 className="title">Codevic</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="http://codevic.epizy.com/home_page/index.html"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
-                                        <figure>
-                                            <img src="assets/images/projects/g8.jpg" alt="img04" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Funny Game</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="https://jineshnagori.github.io/healthcare-funds/"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
-                                        <figure>
-                                            <img src="assets/images/projects/g7.jpg" alt="img04" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Xccurate Security</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="https://jineshnagori.github.io/Xccurate-Security"></a>
+                                                <h5 className="title">Links | Tarun Codes</h5>
+                                                <span className="sub-title">Link-Tree</span>
+                                                <a href="https://links.taruncode.ml"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
