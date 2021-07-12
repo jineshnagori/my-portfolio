@@ -115,12 +115,22 @@
     background-color: white;
     display: flex;
     justify-content: center;
+    -webkit-box-shadow: 0 1px 15px 0 rgb(0 0 0 / 16%);
+    -moz-box-shadow: 0 1px 15px 0 rgb(0 0 0 / 16%);
+    box-shadow: 0 1px 15px 0 rgb(0 0 0 / 16%);
   }
   
   .bottom-nav ul {
     display: block;
     text-align: center;
     float: none;
+  }
+
+  .fixed-bottom-nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 99;
   }
 
   .bottom-nav li {
