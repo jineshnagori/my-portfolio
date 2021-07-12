@@ -8,6 +8,7 @@ import Testimonials from "./components/Testimonials.js"
 import Blogs from "./components/Blogs.js"
 import Contact from "./components/Contact.js"
 import Footer from "./components/Footer.js"
+import BottomNav from "./components/BottomNav.js"
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Blogs />
       <Contact />
       <Footer />
+      <BottomNav />
     </>
   );
 }

@@ -11,8 +11,7 @@ export default function Contact() {
                             <h3>Contact Me</h3>
                         </div>
                         <div className="col-sm-12 col-md-12">
-                            <form id="contactForm" className="single-form quate-form" data-toggle="validator" action="https://formspree.io/f/moqywzeq"
-  method="POST">
+                            <form id="contactForm" className="single-form quate-form" data-toggle="validator" action="https://formspree.io/f/moqywzeq" method="POST">
                                 <div id="msgSubmit" className="h3 text-center hidden"></div>
                                 <div className="row">
                                     <div className="col-md-6 col-sm-12">
