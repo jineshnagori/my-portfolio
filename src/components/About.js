@@ -14,8 +14,8 @@ export default function About() {
                         <div className="col-sm-12 col-md-6">
                             <div className="about-inner">
                                 <h2 className="">About Me</h2>
-                                <p className="" >I Am Pull-Stack Developer,<br />
-                                    I just pull things off the Google and put it into my Code.</p>
+                                <p className="" >I Am a Pull-Stack Developer,<br />
+                                    I just pull things off from the Google and put it into my Code.</p>
                                 <div className="about-tag">
                                     <ul>
                                         <li><span>HTML</span></li>
