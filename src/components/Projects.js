@@ -12,7 +12,40 @@ export default function Projects() {
                         <div className="part col-sm-12">
                             <div className="project-gallery col-sm-12" id="project-gallery">
                                 <div className="projectsContainer row">
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
+                                            <img src="assets/images/projects/g14.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">IBC</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://businesscoachingprogram.in/ibc"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
+                                            <img src="assets/images/projects/g15.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">How To Start A Startup</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://businesscoachingprogram.in/how-to-start-a-startup"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
+                                            <img src="assets/images/projects/g16.jpg" alt="img04" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Gloweria</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="http://gloweria.in/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g11.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -23,7 +56,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g1.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -34,7 +67,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g13.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -45,7 +78,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 ui mockup">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g2.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -56,7 +89,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g3.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -67,7 +100,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g12.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -78,7 +111,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g9.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -89,7 +122,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g7.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -100,7 +133,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g4.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -111,7 +144,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 user-interface">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g6.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -122,7 +155,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g5.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
@@ -133,7 +166,7 @@ export default function Projects() {
                                             </figcaption>
                                         </figure>
                                     </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12 branding">
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
                                             <img src="assets/images/projects/g10.jpg" alt="img04" />
                                             <figcaption className="fig-caption">
