@@ -284,7 +284,7 @@ a:focus {
 }
 
 .btn.btn-fill {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   color: #fff;
 }
 
@@ -798,7 +798,7 @@ button:focus {
 
 .white-vertion .page-item.active .page-link {
   background-color: #fff;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .white-vertion .page-item .page-link {
@@ -1059,7 +1059,7 @@ button:focus {
 .dark-vertion .page-item.active .page-link {
   background-color: #fff;
   border-color: #fff;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .dark-vertion .navbar-toggler .icon,
@@ -1339,7 +1339,7 @@ li .fa {
 }
 
 .header .navbar-nav li a:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .nav-3 .navbar-dark .navbar-nav .nav-link a {
@@ -1416,7 +1416,7 @@ li .fa {
 }
 
 .home-2 .header-info ul.home-contact li:hover .fa {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .home-2 .header-info .about-tag {
@@ -1442,7 +1442,7 @@ li .fa {
 }
 
 .home .header-info .promo span {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 1px;
@@ -1486,7 +1486,7 @@ li .fa {
 }
 
 .home .header-info ul li:hover .fa {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .home .header-info .social-icon {
@@ -1591,7 +1591,7 @@ li .fa {
 }
 
 .about-tag ul li span {
-  border: 1px solid rgb(237,29,37);
+  border: 1px solid #ff0000;
   padding: 4px 10px;
   border-radius: 4px;
 }
@@ -1673,7 +1673,7 @@ li .fa {
 }
 
 .progress path:nth-child(2) {
-  stroke: rgb(237,29,37);
+  stroke: #ff0000;
 }
 
 .candidatos {
@@ -1731,7 +1731,7 @@ li .fa {
   border-bottom-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  background: rgb(237,29,37);
+  background: #ff0000;
 }
 
 .candidatos .parcial .partidas {
@@ -1790,12 +1790,12 @@ li .fa {
 .experince .education-deatils .education-item h4 a {
   font-style: italic;
   margin-left: 4px;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .experince .education-deatils .education-item .eduyear {
   margin: 10px 0;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .experince .education-deatils .education-item p {
@@ -1843,12 +1843,12 @@ li .fa {
 }
 
 .work .experience-deatils .work-item h4 a {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .work .experience-deatils .work-item .eduyear {
   margin: 10px 0;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .work .experience-deatils .work-item span {
@@ -1891,11 +1891,11 @@ li .fa {
 }
 
 .projects-nav ul li:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .projects-nav ul li.active {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .projects-modal {
@@ -1962,14 +1962,14 @@ li .fa {
 .pricing .pricing:hover .btn {
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
 }
 
 .pricing .pricing .fa {
   font-size: 30px;
   line-height: 36px;
   margin-bottom: 20px;
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .pricing .pricing h4 {
@@ -1980,7 +1980,7 @@ li .fa {
 .pricing .pricing h5 {
   font-size: 36px;
   line-height: 40px;
-  color: rgb(237,29,37);
+  color: #ff0000;
   margin-bottom: 20px;
   margin-top: 20px;
 }
@@ -2033,7 +2033,7 @@ li .fa {
 }
 
 .blog .blog-item .blog-inner a {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .blog .blog-item img {
@@ -2049,11 +2049,11 @@ li .fa {
 }
 
 .blog .blog-item h2 a {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .blog .blog-item h2 a:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 /*
@@ -2160,7 +2160,7 @@ li .fa {
   width: inherit;
   float: none;
   margin: 0 auto;
-  border: 5px solid rgb(237,29,37);
+  border: 5px solid #ff0000;
   margin: 0 auto;
   margin-bottom: 20px;
   border-radius: 50%;
@@ -2211,14 +2211,14 @@ li .fa {
 .testimonial .owl-controls .owl-dots .owl-dot {
   height: 15px;
   width: 15px;
-  border: 1px solid rgb(237,29,37);
+  border: 1px solid #ff0000;
   display: inline-block;
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .testimonial .owl-controls .owl-dots .owl-dot.active {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
 }
 
 /*
@@ -2320,7 +2320,7 @@ li .fa {
   border-radius: 50%;
   line-height: 100px;
   font-size: 20px;
-  border-color: rgb(237,29,37);
+  border-color: #ff0000;
 }
 
 /*
@@ -2580,7 +2580,7 @@ li .fa {
 }
 
 .old .navbar-header .navbar-toggler .icon-bar {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   -webkit-font-smoothing: antialiased;
@@ -2617,7 +2617,7 @@ li .fa {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2711,7 +2711,7 @@ li .fa {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2844,7 +2844,7 @@ li .fa {
 }
 
 .new .navbar-header .navbar-toggler .icon-bar {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   -webkit-transition: all 0.4s ease-out;
   transition: all 0.4s ease-out;
   -webkit-font-smoothing: antialiased;
@@ -2881,7 +2881,7 @@ li .fa {
   z-index: 990;
   margin-top: 0px;
   padding: 0;
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
   transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -o-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
   -ms-transform: translateX(-100%) translateY(0) translateZ(0) rotate(0deg) scale(1);
@@ -2980,7 +2980,7 @@ li .fa {
 }
 
 .projects-nav ul li.current span {
-  border-bottom: 2px solid rgb(237,29,37);
+  border-bottom: 2px solid #ff0000;
 }
 
 .project-gallery .grid-item figure {
@@ -3125,7 +3125,7 @@ li .fa {
   color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(237,29,37);
+  background: #ff0000;
 }
 
 .project-gallery .grid-item figure:hover figcaption:after {
@@ -3189,7 +3189,7 @@ li .fa {
 
 .featured-project .featured-item .featured-project-content .project-category {
   font-size: 14px;
-  color: rgb(237,29,37);
+  color: #ff0000;
   margin-top: 0;
   margin-bottom: 0;
   font-weight: 600;
@@ -3253,14 +3253,14 @@ li .fa {
 .single-project-slide .owl-controls .owl-dots .owl-dot {
   height: 15px;
   width: 15px;
-  border: 1px solid rgb(237,29,37);
+  border: 1px solid #ff0000;
   display: inline-block;
   border-radius: 50%;
   margin-right: 10px;
 }
 
 .single-project-slide .owl-controls .owl-dots .owl-dot.active {
-  background-color: rgb(237,29,37);
+  background-color: #ff0000;
 }
 
 .single-project-slide-by-side .owl-next {
@@ -3334,7 +3334,7 @@ li .fa {
 }
 
 .service .service-item a {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .service .service-item a .fa {
@@ -3369,7 +3369,7 @@ BLOG Pagination
 }
 
 .pagination .page-link:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .pagination .page-item:last-child .page-link {
@@ -3441,7 +3441,7 @@ BLOG Pagination
 }
 
 .author-info .social-icon li a:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .blog-category h4 {
@@ -3455,7 +3455,7 @@ BLOG Pagination
 }
 
 .blog-category ul li a:hover {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .blog-insta ul li {
@@ -3502,7 +3502,7 @@ BLOG Pagination
 }
 
 .blog-next-prev-post a {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .blog-next-prev-post a .fa {
@@ -3542,7 +3542,7 @@ BLOG Pagination
 }
 
 .comment-deatils span {
-  color: rgb(237,29,37);
+  color: #ff0000;
 }
 
 .single-comment {
@@ -3838,7 +3838,7 @@ BLOG Pagination
 
 .card {
   border-radius: 1rem;
-  box-shadow: 0px -10px 0px rgb(237,29,37);
+  box-shadow: 0px -10px 0px #ff0000;
 }
 
 .card-footer {
@@ -3853,7 +3853,7 @@ BLOG Pagination
     border-radius: 5rem;
     margin: 1.3rem auto 1rem auto;
     border-style: solid;
-    border-color: rgb(237,29,37);
+    border-color: #ff0000;
 }
 
 .c-card {
