@@ -10,7 +10,7 @@ export default function Main() {
                             <div className="col-sm-12 col-md-6">
                                 <div className="header-info">
                                     <div className="promo">
-                                        <span>Hello I'm</span>
+                                        <span>Hello <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="20px"/>, I'm</span>
                                     </div>
 
                                     <h2 className="" >Jinesh Nagori</h2>
