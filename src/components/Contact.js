@@ -1,41 +1,35 @@
 import React from 'react'
 
 export default function Contact() {
-    let style = {border: "0"};
+    let style = { border: "0" };
     return (
         <>
             <section className="contact" id="contact">
                 <div className="container">
-                    <div className="row section-separator">
-                        <div className="col-sm-12 section-title" >
+                    <div className="section-separator">
+                        <div className="section-title" >
                             <h3>Contact Me</h3>
                         </div>
-                        <div className="col-sm-12 col-md-12">
-                            <form id="contactForm" className="single-form quate-form" data-toggle="validator" action="https://formspree.io/f/moqywzeq" method="POST">
-                                <div id="msgSubmit" className="h3 text-center hidden"></div>
-                                <div className="row">
-                                    <div className="col-md-6 col-sm-12">
-                                        <input name="name" className="contact-name form-control" id="F_name" type="text"
-                                            placeholder="First Name" required />
-                                    </div>
-                                    <div className="col-md-6 col-sm-12">
-                                        <input name="name" className="contact-email form-control" id="L_name" type="text"
-                                            placeholder="Last Name" required />
-                                    </div>
-                                    <div className="col-sm-12">
-                                        <input name="_replyto" className="contact-subject form-control" id="email" type="email"
-                                            placeholder="Your Email" required />
-                                    </div>
-                                    <div className="col-sm-12">
-                                        <textarea className="contact-message" id="message" name="message" rows="6" placeholder="Your Message"
-                                            required></textarea>
-                                    </div>
-                                    <div className="btn-form col-sm-12">
-                                        <button type="submit" className="btn btn-fill btn-block" id="form-submit">Send
-                                            Message</button>
+                        <div className="auth">
+                            <div className="container">
+                                <div className="row justify-content-center">
+                                    <div className="col-lg-6 col-md-10">
+                                        <div className="sign-form">
+                                            <form className="form-group mb-0" action="#">
+                                                <input name="name" className="contact-name form-control" id="F_name" type="text"
+                                                placeholder="First Name" required />
+                                                <input name="name" className="contact-email form-control" id="L_name" type="text"
+                                                placeholder="Last Name" required />
+                                                <input name="_replyto" className="contact-subject form-control" id="email" type="email"
+                                                placeholder="Your Email" required />
+                                                <textarea className="contact-message form-control" id="message" name="message" rows="6" placeholder="Your Message"
+                                                required></textarea>
+                                                <button className="bigbtn" type="submit">Send Message</button>
+                                            </form>
+                                        </div>
                                     </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
