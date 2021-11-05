@@ -9,6 +9,7 @@ import Blogs from "./components/Blogs.js"
 import Contact from "./components/Contact.js"
 import Footer from "./components/Footer.js"
 import BottomNav from "./components/BottomNav.js"
+import ToggleButton from "./components/ToggleButton.js"
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
       <Contact />
       <Footer />
       <BottomNav />
+      <ToggleButton />
     </>
   );
 }
