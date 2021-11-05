@@ -8,7 +8,7 @@ export default function BottomNav() {
                 <div><a href="#about"><i className="fa fa-user"></i><span>About</span></a></div>
                 <div><a href="#"><i className="fa fa-home"></i><span>Home</span></a></div>
                 <div><a href="#blog"><i className="fa fa-book"></i><span>Blogs</span></a></div>
-                <div><a href="#contact"><i className="fa fa-phone"></i></a><span>Contact</span></div>
+                <div><a href="#contact"><i className="fa fa-phone"></i><span>Contact</span></a></div>
             </div>
         </>
     )

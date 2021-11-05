@@ -8,7 +8,7 @@ export default function About() {
                     <div className="row section-separator">
                         <div className="col-sm-12 col-md-6">
                             <div className="about-img shadow-2" >
-                                <img src="assets/images/ab-img.png" alt className="img-fluid" />
+                                <img src="assets/images/ab-img.png" className="img-fluid" />
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6">

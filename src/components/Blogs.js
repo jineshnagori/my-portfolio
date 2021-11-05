@@ -11,7 +11,7 @@ export default function Blogs() {
                         </div>
                         <div className="col-sm-12 col-md-4">
                             <div className="blog-item dark-bg">
-                                <img src="assets/images/blogs/1.png" alt className="img-fluid" />
+                                <img src="assets/images/blogs/1.png" className="img-fluid" />
                                 <div className="blog-inner">
                                     <h2><a className="blog-heading"
                                         href="https://jineshnagori.medium.com/how-to-google-syndrome-abee5df3b916">“How to
@@ -21,7 +21,7 @@ export default function Blogs() {
                         </div>
                         <div className="col-sm-12 col-md-4">
                             <div className="blog-item dark-bg">
-                                <img src="assets/images/blogs/2.png" alt className="img-fluid" />
+                                <img src="assets/images/blogs/2.png" className="img-fluid" />
                                 <div className="blog-inner">
                                     <h2><a
                                         href="https://jineshnagori.medium.com/executing-the-docker-command-without-sudo-one-command-only-2021-method-fec45ee01531">Executing
@@ -31,7 +31,7 @@ export default function Blogs() {
                         </div>
                         <div className="col-sm-12 col-md-4">
                             <div className="blog-item dark-bg">
-                                <img src="assets/images/blogs/3.png" alt className="img-fluid" />
+                                <img src="assets/images/blogs/3.png" className="img-fluid" />
                                 <div className="blog-inner">
                                     <h2><a className="blog-heading"
                                         href="https://jineshnagori.medium.com/only-one-command-to-install-docker-in-ubuntu-2021-latest-method-580224ae5b1a">Only

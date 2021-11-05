@@ -14,7 +14,7 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g14.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g14.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">IBC</h5>
@@ -25,7 +25,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g15.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g15.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">How To Start A Startup</h5>
@@ -36,7 +36,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g16.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g16.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Gloweria</h5>
@@ -47,7 +47,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g11.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g11.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">#YACSOCIETY</h5>
@@ -58,7 +58,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g1.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g1.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Xccurate Security</h5>
@@ -69,7 +69,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g13.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g13.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Akshat Singh</h5>
@@ -80,7 +80,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g2.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g2.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Beta Programmer</h5>
@@ -91,7 +91,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g3.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g3.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Easy Recharge</h5>
@@ -102,7 +102,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g12.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g12.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">FreeBookPost</h5>
@@ -113,7 +113,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g9.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g9.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Codevic</h5>
@@ -124,7 +124,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g7.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g7.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Xccurate Security</h5>
@@ -135,7 +135,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g4.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g4.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Links | Beta Programmer</h5>
@@ -146,7 +146,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g6.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g6.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Links | The Geeky Boy</h5>
@@ -157,7 +157,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g5.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g5.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Links | Xccurate Security</h5>
@@ -168,7 +168,7 @@ export default function Projects() {
                                     </div>
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
-                                            <img src="assets/images/projects/g10.jpg" alt="img04" />
+                                            <img src="assets/images/projects/g10.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Links | Tarun Codes</h5>

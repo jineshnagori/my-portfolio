@@ -18,9 +18,9 @@ export default function Main() {
                                         Content Creator</h4>
 
                                     <ul>
-                                        <li className="" ><i
-                                            className="fa fa-envelope"></i><a
-                                                href="mailto:contact@jineshnagori.ml">contact@jineshnagori.ml</a></li>
+                                        <li><i
+                                            className="fa fa-envelope"><a
+                                                href="mailto:contact@jineshnagori.ml"> contact@jineshnagori.ml</a></i></li>
                                     </ul>
 
                                     <ul className="social-icon">
@@ -33,7 +33,7 @@ export default function Main() {
                             <div className="col-sm-12 col-md-6">
                                 <div className="hero-img">
                                     <div className="img-border">
-                                        <img src="assets/images/hero.png" alt className="img-fluid" />
+                                        <img src="assets/images/hero.png" className="img-fluid" />
                                     </div>
                                 </div>
                             </div>
