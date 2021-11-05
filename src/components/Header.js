@@ -10,7 +10,8 @@ export default function Header() {
                     <div className="row">
                         <nav className="navbar navbar-expand-lg nav nav-btn">
                             <a className="navbar-brand" href="#">
-                                <img src="assets/images/logo.png" className="img-fluid" />
+                                <img src="assets/images/logo.png" className="img-fluid show" />
+                                <img src="assets/images/dlogo.png" className="img-fluid hide" />
                             </a>
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav mr-0 ml-auto">

@@ -33,7 +33,8 @@ export default function Main() {
                             <div className="col-sm-12 col-md-6">
                                 <div className="hero-img">
                                     <div className="img-border">
-                                        <img src="assets/images/hero.png" className="img-fluid" />
+                                        <img src="assets/images/hero.png" className="img-fluid show" />
+                                        <img src="assets/images/dhero.png" className="img-fluid hide" />
                                     </div>
                                 </div>
                             </div>
