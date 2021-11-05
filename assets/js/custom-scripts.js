@@ -1,4 +1,4 @@
-function toggleDarkMode() {
+$('body').on("click", "#toggleDarkMode", function(e){
   const container = document.getElementById('simulateDarkMode');
   const dataTheme = container.getAttribute('data-theme');
 
@@ -7,7 +7,7 @@ function toggleDarkMode() {
   } else {
       container.setAttribute('data-theme', 'dark');
   }
-}
+});
 
 (function ($) {
   "use strict";
