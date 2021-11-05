@@ -377,7 +377,7 @@ function toggleDarkMode() {
     });
   });
 
-  $('body').on("click touchstart", "i", function(e){
+  $('body').on("click", "i", function(e){
     $(".show, .hide").toggle();
  });
 
