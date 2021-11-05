@@ -15,16 +15,17 @@ export default function Contact() {
                                 <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-10">
                                         <div className="sign-form">
-                                            <form className="form-group mb-0" action="#">
-                                                <input name="name" className="contact-name form-control" id="F_name" type="text"
+                                            <form action="https://formspree.io/f/xnqlqawe" method="POST" className="form-group my-form mb-0">
+                                                <input name="fname" className="contact-name form-control" id="F_name" type="text"
                                                 placeholder="First Name" required />
-                                                <input name="name" className="contact-email form-control" id="L_name" type="text"
+                                                <input name="lname" className="contact-email form-control" id="L_name" type="text"
                                                 placeholder="Last Name" required />
-                                                <input name="_replyto" className="contact-subject form-control" id="email" type="email"
+                                                <input name="email" className="contact-subject form-control" id="email" type="email"
                                                 placeholder="Your Email" required />
                                                 <textarea className="contact-message form-control" id="message" name="message" rows="6" placeholder="Your Message"
                                                 required></textarea>
                                                 <button className="bigbtn" type="submit">Send Message</button>
+                                                <p id="my-form-status" className="reg-text text-center mb-0"></p>
                                             </form>
                                         </div>
                                     </div>

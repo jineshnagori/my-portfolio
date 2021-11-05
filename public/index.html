@@ -58,6 +58,30 @@
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
     <script src="assets/js/custom-scripts.js"></script>
+    <script>
+        $(function () {
+            $('.my-form').on('submit', function (e) {
+                e.preventDefault();
+                var form = $(this);
+                var url = form.attr('action');
+                var data = form.serialize();
+                var status = document.getElementById("my-form-status");
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data,
+                    success: function (data) {
+                        if (data.status == 'success') {
+                            status.innerHTML = "Thanks for your submission!";
+                            $('.my-form').trigger("reset");
+                        } else {
+                            status.innerHTML = "Error: " + data.status;
+                        }
+                    }
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>
