@@ -4,7 +4,7 @@ export default function Testimonials() {
     let image = { width: "100px", height: "100px" };
     return (
         <>
-            <section classNameName="testimonial" id="testimonial">
+            <section className="testimonial" id="testimonial">
                 <div className="testo container">
                     <div className="row">
                         <div className="section-title col-sm-12">
