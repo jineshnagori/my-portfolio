@@ -1477,6 +1477,13 @@ a:hover {
   border: 0;
   width: 45px;
   height: 45px;
+  display: grid;
+  place-items: center;
+}
+
+.moon, .sun {
+  color: var(--primary-color);
+  font-size: 20px;
 }
 
 .hide {
