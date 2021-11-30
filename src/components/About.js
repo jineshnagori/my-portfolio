@@ -1,4 +1,5 @@
 import React from 'react'
+import Pdf from '../documents/Jinesh-Resume.pdf';
 
 export default function About() {
     return (
@@ -29,7 +30,7 @@ export default function About() {
                                         <li><span>MySQL</span></li>
                                     </ul>
                                 </div>
-                                <a className="btn btn-fill text-white" data-wow-duration="0.8s"
+                                <a href={Pdf} className="btn btn-fill text-white" data-wow-duration="0.8s"
                                     data-wow-delay="0.4s">Downlaod CV <i className="fa fa-download"></i></a>
                             </div>
                         </div>
