@@ -5,8 +5,8 @@ export default function ToggleButton() {
         <>
             <div id="toggleDarkMode">
                 <div className="toggle_wrap">
-                    <i className="moon fa fa-moon-o show"></i>
-                    <i className="sun fa fa-sun-o hide"></i>
+                    <i id="toggleIcon" className="moon fa fa-moon-o show"></i>
+                    <i id="toggleIcon" className="sun fa fa-sun-o hide"></i>
                 </div>
             </div>
         </>

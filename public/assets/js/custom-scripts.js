@@ -1,4 +1,4 @@
-$('body').on("click", "#toggleDarkMode", function(e){
+$('body').on("click", "#toggleIcon", function(e){
   const container = document.getElementById('simulateDarkMode');
   const dataTheme = container.getAttribute('data-theme');
 
