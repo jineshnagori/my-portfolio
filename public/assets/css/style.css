@@ -1465,9 +1465,11 @@ a:hover {
   background-color: var(--primary-color);
   box-shadow: 0 0 4px var(--primary-shadow-color);
   padding: 5px !important;
+  display: grid;
+  place-items: center;
 }
 
-.toggle_wrap {
+#toggleIcon {
   padding: 10px !important;
   border-radius: 50%;
   box-shadow: 0 0 4px var(--primary-shadow-color);
@@ -1477,13 +1479,12 @@ a:hover {
   border: 0;
   width: 45px;
   height: 45px;
-  display: grid;
-  place-items: center;
+  align-items: center;
 }
 
 .moon, .sun {
   color: var(--primary-color);
-  font-size: 20px;
+  font-size: 25px;
 }
 
 .hide {
