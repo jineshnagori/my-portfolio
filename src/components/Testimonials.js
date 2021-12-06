@@ -8,7 +8,7 @@ export default function Testimonials() {
                 <div className="testo container">
                     <div className="row">
                         <div className="section-title col-sm-12">
-                            <h3>Testonomials</h3>
+                            <h3>Testimonials</h3>
                         </div>
                         <div className="c-card col-md-4">
                             <div className="card d-flex mx-auto">
