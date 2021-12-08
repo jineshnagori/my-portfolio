@@ -1487,6 +1487,26 @@ a:hover {
   font-size: 25px;
 }
 
+.toggleText {
+  z-index: 1000;
+  position: fixed;
+  padding: 5px 10px;
+  right: 5%;
+  bottom: 7%;
+  background: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-shadow-color);
+  color: var(--font-color);
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  border-radius: 5px;
+  display: none;
+}
+
+#toggleDarkMode:hover + .toggleText {
+  display: block;
+}
+
 .hide {
   display: none;
 }
@@ -1501,5 +1521,11 @@ a:hover {
     top: 5%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
+  }
+  .toggleText {
+    display: none !important;
+  }
+  #toggleDarkMode:hover + .toggleText {
+    display: none !important;
   }
 }
