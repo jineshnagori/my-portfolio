@@ -7,6 +7,9 @@ export default function ToggleButton() {
                 <i id="toggleIcon" className="moon fa fa-moon-o show"></i>
                 <i id="toggleIcon" className="sun fa fa-sun-o hide"></i>
             </div>
+            <div class="toggleText">
+                Dark/Light Mode Toggle
+            </div>
         </>
     )
 }
