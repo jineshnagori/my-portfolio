@@ -1517,7 +1517,9 @@ a:hover {
 
 @media screen and (max-width: 768px) {
   #toggleDarkMode {
-    height: min-content;
+    height: fit-content;
+    height: -moz-max-content;
+    height: -webkit-max-content;
     top: 5%;
     border-top-left-radius: 50%;
     border-bottom-left-radius: 50%;
