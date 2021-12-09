@@ -787,23 +787,6 @@ h5 {
   z-index: 99;
 }
 
-/*
-====================
-    contact 3
-====================
-*/
-
-/*
-==================
-    contact 3
-=================
-*/
-
-/*
-====================
-   projects
-===================
-*/
 .grid-item {
   margin-bottom: 20px;
 }
@@ -1037,11 +1020,6 @@ h5 {
   margin-bottom: 60px;
 }
 
-/*
-    ==============
-       SERVICES
-    ==============
-*/
 .service .service-item {
   padding: 20px;
   border-radius: 4px;
@@ -1083,11 +1061,6 @@ h5 {
   margin-left: 6px;
 }
 
-/*
-=================
-BLOG Pagination
-=============
-*/
 a:hover {
   color: var(--text-color);
 }
@@ -1099,13 +1072,6 @@ a:hover {
   margin-bottom: 30px;
 }
 
-/*
-|===================
-| SLIDER
-|===================
-*/
-/* Preloader */
-/*# sourceMappingURL=styles.css.map */
 .noselect {
   -webkit-touch-callout: none; /* iOS Safari */
   -webkit-user-select: none; /* Safari */
@@ -1491,8 +1457,8 @@ a:hover {
   z-index: 1000;
   position: fixed;
   padding: 5px 10px;
-  right: 5%;
-  bottom: 7%;
+  right: 4.9%;
+  bottom: 6.5%;
   background: var(--primary-color);
   box-shadow: 0 0 10px var(--primary-shadow-color);
   color: var(--font-color);
@@ -1518,7 +1484,7 @@ a:hover {
 @media screen and (max-width: 768px) {
   #toggleDarkMode {
     top: 5%;
-    display: table;
+    height: fit-content !important;
   }
   .toggleText {
     display: none !important;
