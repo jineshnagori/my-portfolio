@@ -13,10 +13,14 @@
 
 [data-theme="dark"] {
   --primary-color: #121212;
-  --secondary-color: linear-gradient(90deg, rgba(254,223,22,1) 22%, rgba(243,100,34,1) 100%);
+  --secondary-color: linear-gradient(
+    90deg,
+    rgba(254, 223, 22, 1) 22%,
+    rgba(243, 100, 34, 1) 100%
+  );
   --font-color: #fff;
   --primary-shadow-color: rgb(255 255 255 / 10%);
-  --text-color: #FBBD19;
+  --text-color: #fbbd19;
 }
 
 body {
@@ -94,18 +98,6 @@ a:focus {
   outline: 0 !important;
 }
 
-/**
- * ---------------------
- *  Defult Halping Class
- * ---------------------
- */
-
-/**
- * --------------------------------------
- *  Video Section Background Defult Style
- * --------------------------------------
- */
-
 .section-title {
   text-align: center;
 }
@@ -117,17 +109,6 @@ a:focus {
   margin-bottom: 60px;
 }
 
-/**
- * ------------------------------------
- *  Every Section Headline Defult Class
- * ------------------------------------
- */
-
-/**
- * ---------------------
- *   Defult Button Style
- * ---------------------
- */
 .btn {
   -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
@@ -153,11 +134,6 @@ a:focus {
   outline-offset: -2px;
 }
 
-/** 
- * -----------------
- * Social Icon Style
- * -----------------
- */
 .social-icon {
   display: inline-block;
 }
@@ -196,17 +172,6 @@ a:focus {
   margin-right: 0px;
 }
 
-/**
- * -----------------------------------
- * Subscription and contact  "MESSAGE"
- * -----------------------------------
- */
-
-/**
- * ------------------
- * list
- * ------------------
- */
 ul {
   margin: 0;
   padding: 0;
@@ -221,12 +186,6 @@ ul li {
   padding: 20px !important;
   height: auto !important;
 }
-
-/**
- * =================
- * CONTAINER HALF CONTENT
- * =================
- */
 
 .vertical-middle-content {
   display: -moz-flex;
@@ -246,12 +205,6 @@ ul li {
   -ms-flex-direction: row;
   flex-direction: row;
 }
-
-/**
- * ---------------------------------
- *  Section Background Size Property
- * ---------------------------------
- */
 
 .section-separator {
   padding: 60px 0;
@@ -282,11 +235,6 @@ button:focus {
   outline: 0;
 }
 
-/** 
- * -----------------
- * General CSS
- * -----------------
- */
 .h2,
 .h3,
 .h4,
@@ -301,15 +249,6 @@ h5 {
 .social-icon li .fa:hover {
   background: var(--text-color);
 }
-
-/*
-    ==============
-    Navigation
-    ==============
-*/
-/*---------------------------------------------------------------------*/
-/* Loader 
-/*---------------------------------------------------------------------*/
 
 @keyframes loader {
   0% {
@@ -328,11 +267,6 @@ h5 {
   }
 }
 
-/*
-    ==============
-       Navigation
-    ==============
-*/
 .nav {
   width: 100%;
 }
@@ -376,17 +310,6 @@ h5 {
   padding: 180px 0;
 }
 
-/*
-    ==============
-       Navigation
-    ==============
-*/
-
-/*
-    ==============
-       HOME
-    ==============
-*/
 .home .header-info {
   padding-top: 100px;
 }
@@ -496,11 +419,6 @@ h5 {
   border-radius: 50%;
 }
 
-/*
-    ==============
-       ABOUT
-    ==============
-*/
 .about .about-inner {
   padding-left: 50px;
 }
@@ -549,11 +467,6 @@ h5 {
   background: transparent !important;
 }
 
-/*
-    ==============
-       SKILLS
-    ==============
-*/
 .skills .professional-skill {
   padding-right: 60px;
 }
@@ -631,18 +544,6 @@ h5 {
   }
 }
 
-/*
-    ==============
-      EXPERIENCES
-    ==============
-*/
-
-/*
-    ==============
-      EDUCATION
-    ==============
-*/
-
 .work {
   padding-left: 30px;
 }
@@ -654,23 +555,6 @@ h5 {
   margin-bottom: 60px;
 }
 
-/*
-    ==============
-      projects
-    ==============
-*/
-
-/*
-    ==============
-       Pricing
-    ==============
-*/
-
-/*
-    ==============
-       BLOG
-    ==============
-*/
 .blog .blog-item {
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -718,48 +602,6 @@ h5 {
 .blog .blog-item h2 a:hover {
   color: var(--text-color);
 }
-
-/*
-    ==============
-       MH VIDEO
-    ==============
-*/
-
-/*
-    ==============
-       QUATES
-    ==============
-*/
-
-/*
-    ==============
-       VIDEO
-    ==============
-*/
-
-/*
-    =================
-       TESTIMONIAL
-    =================
-*/
-
-/*
-    ==============
-       MAP
-    ==============
-*/
-
-/*
-    ============
-    contact Address
-    ==============
-*/
-
-/*
-====================
-    Subpage
-====================
-*/
 .page-title {
   padding-top: 100px;
 }
@@ -1073,13 +915,12 @@ a:hover {
 }
 
 .noselect {
-  -webkit-touch-callout: none; /* iOS Safari */
-  -webkit-user-select: none; /* Safari */
-  -khtml-user-select: none; /* Konqueror HTML */
-  -moz-user-select: none; /* Old versions of Firefox */
-  -ms-user-select: none; /* Internet Explorer/Edge */
-  user-select: none; /* Non-prefixed version, currently
-                                  supported by Chrome, Edge, Opera and Firefox */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .footer-center {
@@ -1177,40 +1018,37 @@ a:hover {
     padding-top: 50px;
     padding-right: 20px;
   }
-  .bottom-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
-    background: var(--primary-color);
-    display: flex;
-    justify-content: space-evenly;
-    padding: 1% 0;
-    box-shadow: 0 1px 15px 0 var(--primary-shadow-color);
-  }
-
-  .bottom-nav i {
-    font-size: 20px;
-  }
-
-  .bottom-nav div {
-    display: block;
-    text-align: center;
-    float: none;
-  }
-
-  .fixed-bottom-nav {
-    position: fixed;
-    left: 0;
-    right: 0;
-    z-index: 99;
-  }
-
-  .bottom-nav span {
-    display: block;
-  }
-
   .ml {
     margin-left: 30px;
+  }
+  .bottom-nav {
+    padding: 1rem !important;
+    height: 7rem;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999;
+    background: transparent;
+  }
+  .bottom-nav-items {
+    background-color: var(--primary-color);
+    color: var(--font-color);
+    border-radius: 1rem;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-shadow: 0px 0px 15px var(--primary-shadow-color);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+  }
+  .bottom-nav-item {
+    display: grid;
+    place-items: center;
   }
 }
 
@@ -1330,11 +1168,10 @@ a:hover {
     height: 280px;
     width: 280px;
   }
-  .home-padding {
-    padding: 60px 0;
+  .footer-center {
+    padding: 25px;
   }
 }
-/*# sourceMappingURL=responsive.css.map */
 
 @media (max-width: 767px) {
   .card {
@@ -1422,7 +1259,7 @@ a:hover {
 }
 
 #toggleDarkMode {
-  z-index: 1000!important;
+  z-index: 1000 !important;
   position: fixed;
   right: 0;
   bottom: 5%;
@@ -1448,7 +1285,8 @@ a:hover {
   align-items: center;
 }
 
-.moon, .sun {
+.moon,
+.sun {
   color: var(--primary-color);
   font-size: 25px;
 }
@@ -1482,14 +1320,10 @@ a:hover {
 }
 
 @media screen and (max-width: 768px) {
-  #toggleDarkMode {
-    top: 5%;
-    height: fit-content !important;
-  }
   .toggleText {
     display: none !important;
   }
-  #toggleDarkMode:hover + .toggleText {
+  #toggleDarkMode:hover + .toggleText,#toggleDarkMode {
     display: none !important;
   }
 }
