@@ -211,6 +211,10 @@ ul li {
   padding-top: 100px;
 }
 
+.p-inherit {
+  padding: inherit !important;
+}
+
 button {
   outline: 0;
 }
@@ -867,6 +871,10 @@ h5 {
   border-radius: 4px;
   background: var(--primary-color);
   box-shadow: 0px 0px 15px var(--primary-shadow-color);
+}
+
+.d-grid {
+  display: grid;
 }
 
 .service .service-item .fa {
