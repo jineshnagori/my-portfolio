@@ -5,11 +5,11 @@ export default function Blogs() {
         <>
             <section className="blog" id="blog">
                 <div className="container">
-                    <div className="row section-separator">
+                    <div className="row section-separator p-inherit">
                         <div className="col-sm-12 section-title" >
                             <h3>Read My Blogs</h3>
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 d-grid">
                             <div className="blog-item dark-bg">
                                 <img src="assets/images/blogs/1.png" className="img-fluid" />
                                 <div className="blog-inner">
@@ -19,7 +19,7 @@ export default function Blogs() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 d-grid">
                             <div className="blog-item dark-bg">
                                 <img src="assets/images/blogs/2.png" className="img-fluid" />
                                 <div className="blog-inner">
@@ -29,7 +29,7 @@ export default function Blogs() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-sm-12 col-md-4">
+                        <div className="col-sm-12 col-md-4 d-grid">
                             <div className="blog-item dark-bg">
                                 <img src="assets/images/blogs/3.png" className="img-fluid" />
                                 <div className="blog-inner">
