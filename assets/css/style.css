@@ -9,6 +9,8 @@
   --font-color: #121212;
   --primary-shadow-color: rgb(0 0 0 / 10%);
   --text-color: #ff0000;
+  --img-border-color-one: rgba(0, 0, 0, 0.17);
+  --img-border-color-two: rgba(0, 0, 0, 0.07);
 }
 
 [data-theme="dark"] {
@@ -21,6 +23,8 @@
   --font-color: #fff;
   --primary-shadow-color: rgb(255 255 255 / 10%);
   --text-color: #fbbd19;
+  --img-border-color-one: rgba(255, 255, 255, 0.17);
+  --img-border-color-two: rgba(255, 255, 255, 0.07);
 }
 
 body {
@@ -411,14 +415,14 @@ h5 {
   margin: 0 auto;
   float: none;
   text-align: center;
-  border: 20px solid rgba(0, 0, 0, 0.17);
+  border: 20px solid var(--img-border-color-one);
   border-radius: 50%;
 }
 
 .home .img-border {
   height: 400px;
   width: 400px;
-  border: 20px solid rgba(0, 0, 0, 0.07);
+  border: 20px solid var(--img-border-color-two);
   margin: 0 auto;
   border-radius: 50%;
 }
