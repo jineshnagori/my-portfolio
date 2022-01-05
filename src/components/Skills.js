@@ -14,8 +14,6 @@ export default function Skills() {
             <section className="skills" id="skills">
                 <div className="container">
                     <div className="row section-separator">
-                        <div className="section-title text-center col-sm-12">
-                        </div>
                         <div className="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">
                             <div className="skills-inner">
                                 <div className="justify-content-center professional-skill">
