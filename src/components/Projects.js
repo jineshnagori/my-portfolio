@@ -14,6 +14,17 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
+                                            <img src="assets/images/projects/g5.jpg" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">BizQuesta</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://www.bizquesta.in/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
                                             <img src="assets/images/projects/g14.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
@@ -41,7 +52,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Gloweria</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="http://gloweria.in/"></a>
+                                                <a href="https://jineshnagori.github.io/GLOWERIA/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -95,7 +106,7 @@ export default function Projects() {
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Easy Recharge</h5>
-                                                <span className="sub-title">Open-Source</span>
+                                                <span className="sub-title">Back-end</span>
                                                 <a href="https://jineshnagori.github.io/easyRecharge/"></a>
                                             </figcaption>
                                         </figure>
@@ -108,17 +119,6 @@ export default function Projects() {
                                                 <h5 className="title">FreeBookPost</h5>
                                                 <span className="sub-title">Open-Source</span>
                                                 <a href="https://github.com/jineshnagori/FreeBookPost"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g9.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Codevic</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="http://codevic.epizy.com/home_page/index.html"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -141,39 +141,6 @@ export default function Projects() {
                                                 <h5 className="title">Links | Beta Programmer</h5>
                                                 <span className="sub-title">Link-Tree</span>
                                                 <a href="https://links.betaprogrammer.ml"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g6.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Links | The Geeky Boy</h5>
-                                                <span className="sub-title">Link-Tree</span>
-                                                <a href="https://links.thegeekyb0y.ml"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g5.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Links | Xccurate Security</h5>
-                                                <span className="sub-title">Link-Tree</span>
-                                                <a href="https://links.xccuratesecurity.in"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g10.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Links | Tarun Codes</h5>
-                                                <span className="sub-title">Link-Tree</span>
-                                                <a href="https://links.taruncode.ml"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
