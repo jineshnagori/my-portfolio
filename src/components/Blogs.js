@@ -15,7 +15,7 @@ export default function Blogs() {
                                 <img src="assets/images/blogs/4.png" className="img-fluid hide" />
                                 <div className="blog-inner">
                                     <h2><a className="blog-heading"
-                                        href="https://jineshnagori.medium.com/how-to-google-syndrome-abee5df3b916">“How to
+                                        href="https://jineshnagori.indium.com/how-to-google-syndrome-abee5df3b916">“How to
                                         Google” Syndrome. How to Overcome.</a></h2>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@ export default function Blogs() {
                                 <img src="assets/images/blogs/5.png" className="img-fluid hide" />  
                                 <div className="blog-inner">
                                     <h2><a
-                                        href="https://jineshnagori.medium.com/executing-the-docker-command-without-sudo-one-command-only-2021-method-fec45ee01531">Executing
+                                        href="https://jineshnagori.indium.com/executing-the-docker-command-without-sudo-one-command-only-2021-method-fec45ee01531">Executing
                                         the Docker Command Without Sudo</a></h2>
                                 </div>
                             </div>
@@ -37,7 +37,7 @@ export default function Blogs() {
                                 <img src="assets/images/blogs/6.png" className="img-fluid hide" />
                                 <div className="blog-inner">
                                     <h2><a className="blog-heading"
-                                        href="https://jineshnagori.medium.com/only-one-command-to-install-docker-in-ubuntu-2021-latest-method-580224ae5b1a">Only
+                                        href="https://jineshnagori.indium.com/only-one-command-to-install-docker-in-ubuntu-2021-latest-method-580224ae5b1a">Only
                                         one command to install Docker in Ubuntu</a></h2>
                                 </div>
                             </div>
