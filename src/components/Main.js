@@ -20,7 +20,7 @@ export default function Main() {
                                     <ul>
                                         <li><i
                                             className="fa fa-envelope"><a
-                                                href="mailto:contact@jineshnagori.ml"> contact@jineshnagori.ml</a></i></li>
+                                                href="mailto:contact@jineshnagori.me"> contact@jineshnagori.me</a></i></li>
                                     </ul>
 
                                     <ul className="social-icon">
