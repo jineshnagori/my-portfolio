@@ -14,6 +14,28 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
+                                            <img src="assets/images/projects/g18.jpg" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Sova Skills</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://www.sovaskills.com/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
+                                            <img src="assets/images/projects/g17.jpg" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">AceCademy</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://www.acecademy.com/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
                                             <img src="assets/images/projects/g5.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
@@ -119,28 +141,6 @@ export default function Projects() {
                                                 <h5 className="title">FreeBookPost</h5>
                                                 <span className="sub-title">Open-Source</span>
                                                 <a href="https://github.com/jineshnagori/FreeBookPost"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g7.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Xccurate Security</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="https://jineshnagori.github.io/Xccurate-Security"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g4.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Links | Beta Programmer</h5>
-                                                <span className="sub-title">Link-Tree</span>
-                                                <a href="https://links.betaprogrammer.ml"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
