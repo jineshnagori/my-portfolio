@@ -291,6 +291,10 @@ h5 {
   margin: 0 20px;
 }
 
+.navbar-brand img {
+  width: 40%;
+}
+
 .header .navbar-nav li a {
   border-bottom: 1px solid transparent;
   font-weight: bold;
