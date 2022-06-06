@@ -14,7 +14,7 @@ export default function Contact() {
                             <div className="container">
                                 <div className="row justify-content-center">
                                     <div className="col-lg-6 col-md-10">
-                                        <div className="sign-form">
+                                        <div className="contact-form">
                                             <form action="https://formspree.io/f/xnqlqawe" method="POST" className="form-group mb-0">
                                                 <input name="fname" className="contact-name form-control" type="text"
                                                 placeholder="First Name" required />
@@ -25,7 +25,6 @@ export default function Contact() {
                                                 <textarea className="contact-message form-control" name="message" rows="6" placeholder="Your Message"
                                                 required></textarea>
                                                 <button className="bigbtn" type="submit">Send Message</button>
-                                                <p id="my-form-status" className="reg-text text-center mb-0"></p>
                                             </form>
                                         </div>
                                     </div>

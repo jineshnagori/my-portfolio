@@ -5,7 +5,6 @@ export default function Header() {
     return (
         <>
             <header className="black-bg header fixed-nav nav-scroll xs-mobile-nav wow fadeInUp" id="header">
-                <div className="overlay"></div>
                 <div className="container">
                     <div className="row">
                         <nav className="navbar navbar-expand-lg nav nav-btn">

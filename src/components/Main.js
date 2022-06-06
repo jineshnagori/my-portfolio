@@ -14,8 +14,7 @@ export default function Main() {
                                     </div>
 
                                     <h2 className="" >Jinesh Nagori</h2>
-                                    <h4 className="" >Web Developer |
-                                        Content Creator</h4>
+                                    <h4 className="" >Web Developer | Content Creator</h4>
 
                                     <ul>
                                         <li><i

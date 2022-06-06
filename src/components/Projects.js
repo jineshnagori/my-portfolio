@@ -14,6 +14,28 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
+                                            <img src="assets/images/projects/g19.png" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Masai School Scheduler Application</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://masai.acecademy.com/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
+                                            <img src="assets/images/projects/g20.png" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Manorama Home Stay</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a href="https://manoramahomestay.in/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
                                             <img src="assets/images/projects/g18.jpg" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
@@ -52,29 +74,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">IBC</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://businesscoachingprogram.in/ibc"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g15.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">How To Start A Startup</h5>
-                                                <span className="sub-title">Front-end</span>
-                                                <a href="https://businesscoachingprogram.in/how-to-start-a-startup"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g16.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Gloweria</h5>
-                                                <span className="sub-title">Front-end</span>
-                                                <a href="https://jineshnagori.github.io/GLOWERIA/"></a>
+                                                <a href="https://github.com/jineshnagori/ibc"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -86,17 +86,6 @@ export default function Projects() {
                                                 <h5 className="title">#YACSOCIETY</h5>
                                                 <span className="sub-title">Front-end</span>
                                                 <a href="https://www.yacsociety.in"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g1.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Xccurate Security</h5>
-                                                <span className="sub-title">Front-end</span>
-                                                <a href="https://xccuratesecurity.in"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -119,28 +108,6 @@ export default function Projects() {
                                                 <h5 className="title">Beta Programmer</h5>
                                                 <span className="sub-title">Front-end</span>
                                                 <a href="https://www.betaprogrammer.ml"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g3.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Easy Recharge</h5>
-                                                <span className="sub-title">Back-end</span>
-                                                <a href="https://jineshnagori.github.io/easyRecharge/"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g12.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">FreeBookPost</h5>
-                                                <span className="sub-title">Open-Source</span>
-                                                <a href="https://github.com/jineshnagori/FreeBookPost"></a>
                                             </figcaption>
                                         </figure>
                                     </div>

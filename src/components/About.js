@@ -22,12 +22,10 @@ export default function About() {
                                         <li><span>HTML</span></li>
                                         <li><span>CSS</span></li>
                                         <li><span>Bootstrap</span></li>
-                                        <li><span>Tailwind</span></li>
                                         <li><span>JavaScript</span></li>
                                         <li><span>React</span></li>
-                                        <li><span>WordPress</span></li>
-                                        <li><span>PHP</span></li>
-                                        <li><span>MySQL</span></li>
+                                        <li><span>OWASP</span></li>
+                                        <li><span>BurpSuite</span></li>
                                     </ul>
                                 </div>
                                 <a href={Pdf} className="btn btn-fill text-white" data-wow-duration="0.8s"
