@@ -3,11 +3,11 @@ import Main from "./components/Main.js"
 import About from "./components/About.js"
 import Projects from "./components/Projects.js"
 import Testimonials from "./components/Testimonials.js"
-import Blogs from "./components/Blogs.js"
 import Contact from "./components/Contact.js"
 import Footer from "./components/Footer.js"
 import BottomNav from "./components/BottomNav.js"
 import ToggleButton from "./components/ToggleButton.js"
+import Certification from "./components/Certification.js"
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <Main />
       <About />
       <Projects />
+      <Certification />
       <Testimonials />
-      <Blogs />
       <Contact />
       <Footer />
       <BottomNav />

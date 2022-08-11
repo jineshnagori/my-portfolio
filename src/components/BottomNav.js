@@ -11,7 +11,7 @@ export default function BottomNav() {
                         <i id="toggleIcon" className="moon fa fa-moon-o show"></i>
                         <i id="toggleIcon" className="sun fa fa-sun-o hide"></i>
                     </div>
-                    <a className="bottom-nav-item" href="#blog"><i className="fa fa-book"></i><span>Blogs</span></a>
+                    <a className="bottom-nav-item" href="#certification"><i className="fa fa-certificate"></i><span>Bypass</span></a>
                     <a className="bottom-nav-item" href="#contact"><i className="fa fa-phone"></i><span>Contact</span></a>
                 </div>
             </div>
