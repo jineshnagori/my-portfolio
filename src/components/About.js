@@ -19,19 +19,20 @@ export default function About() {
                                     I just pull things off from the Google and put it into my Code.</p>
                                 <div className="about-tag">
                                     <ul>
-                                        <li><span>OWASP</span></li>
-                                        <li><span>BurpSuite</span></li>
-                                        <li><span>Hydra</span></li>
-                                        <li><span>John The Ripper</span></li>
+                                        <li><span>DevOps</span></li>
+                                        <li><span>Git & GitHub</span></li>
+                                        <li><span>Docker</span></li>
+                                        <li><span>K8s</span></li>
+                                        <li><span>Azure</span></li>
                                         <li><span>NMAP</span></li>
-                                        <li><span>Wireshark</span></li>
                                         <li><span>OSINT</span></li>
-                                        <li><span>Metasploit</span></li>
                                         <li><span>HTML</span></li>
                                         <li><span>CSS</span></li>
                                         <li><span>Bootstrap</span></li>
                                         <li><span>JavaScript</span></li>
                                         <li><span>React</span></li>
+                                        <li><span>PHP</span></li>
+                                        <li><span>MySQL</span></li>
                                     </ul>
                                 </div>
                                 <a href={Pdf} target="_blank" className="btn btn-fill text-white" data-wow-duration="0.8s"

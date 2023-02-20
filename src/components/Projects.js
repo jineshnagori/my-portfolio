@@ -14,12 +14,23 @@ export default function Projects() {
                                 <div className="projectsContainer row">
                                     <div className="grid-item col-md-4 col-sm-6 col-xs-12">
                                         <figure>
+                                            <img src="assets/images/projects/g21.png" />
+                                            <figcaption className="fig-caption">
+                                                <i className="fa fa-search"></i>
+                                                <h5 className="title">Amit Computers & Printers</h5>
+                                                <span className="sub-title">Front-end</span>
+                                                <a target="_blank" href="https://www.amitcomputers.in/"></a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
+                                        <figure>
                                             <img src="assets/images/projects/g19.png" />
                                             <figcaption className="fig-caption">
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Masai School Scheduler Application</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://masai.acecademy.com/"></a>
+                                                <a target="_blank" href="https://masai.acecademy.com/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -30,7 +41,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Manorama Home Stay</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://manoramahomestay.in/"></a>
+                                                <a target="_blank" href="https://manoramahomestay.in/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -41,7 +52,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Sova Skills</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://www.sovaskills.com/"></a>
+                                                <a target="_blank" href="https://www.sovaskills.com/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -52,7 +63,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">AceCademy</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://www.acecademy.com/"></a>
+                                                <a target="_blank" href="https://www.acecademy.com/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -63,7 +74,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">BizQuesta</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://www.bizquesta.in/"></a>
+                                                <a target="_blank" href="https://www.bizquesta.in/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -74,7 +85,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">IBC</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://github.com/jineshnagori/ibc"></a>
+                                                <a target="_blank" href="https://github.com/jineshnagori/ibc"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -85,7 +96,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">#YACSOCIETY</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://www.yacsociety.in"></a>
+                                                <a target="_blank" href="https://jineshnagori.github.io/yac/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
@@ -96,18 +107,7 @@ export default function Projects() {
                                                 <i className="fa fa-search"></i>
                                                 <h5 className="title">Akshat Singh</h5>
                                                 <span className="sub-title">Front-end</span>
-                                                <a href="https://akshatsingh.ga"></a>
-                                            </figcaption>
-                                        </figure>
-                                    </div>
-                                    <div className="grid-item col-md-4 col-sm-6 col-xs-12">
-                                        <figure>
-                                            <img src="assets/images/projects/g2.jpg" />
-                                            <figcaption className="fig-caption">
-                                                <i className="fa fa-search"></i>
-                                                <h5 className="title">Beta Programmer</h5>
-                                                <span className="sub-title">Front-end</span>
-                                                <a href="https://www.betaprogrammer.ml"></a>
+                                                <a target="_blank" href="https://jineshnagori.github.io/akshatsingh.ml/"></a>
                                             </figcaption>
                                         </figure>
                                     </div>
