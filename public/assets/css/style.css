@@ -130,6 +130,10 @@ section {
 
 .sun:hover {
   animation: rays 10s linear infinite;
+  -o-animation: rays 10s linear infinite;
+  -ms-animation: rays 10s linear infinite;
+  -moz-animation: rays 10s linear infinite;
+  -webkit-animation: rays 10s linear infinite;
 }
 
 #toggleIcon {
@@ -181,15 +185,12 @@ section {
   color: var(--font-color);
 }
 
-.logo:hover {
+.logo strong {
   color: var(--text-color);
 }
 
-.logo :last-child {
+.logo:hover {
   color: var(--text-color);
-  font-size: 1.7rem;
-  position: relative;
-  top: -3px;
 }
 
 .header .header-wrapper .menu {
@@ -288,7 +289,7 @@ section {
 
 .hero-btns {
   display: flex;
-  padding-bottom: 1rem;
+  padding-top: 1.5rem;
   gap: 1rem;
 }
 

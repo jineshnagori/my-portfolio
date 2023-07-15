@@ -6,8 +6,7 @@ function Header() {
             <div class="header">
                 <div class="header-wrapper">
                     <a class="logo" href="/">
-                        <div>JineshNagori</div>
-                        <div>.</div>
+                        <div>JineshNagori<strong>.</strong></div>
                     </a>
                     <div class="menu">
                         <div class="menuItem">
