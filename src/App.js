@@ -1,27 +1,23 @@
-import Header from "./components/Header.js"
-import Main from "./components/Main.js"
-import About from "./components/About.js"
-import Projects from "./components/Projects.js"
-import Testimonials from "./components/Testimonials.js"
-import Contact from "./components/Contact.js"
-import Footer from "./components/Footer.js"
-import BottomNav from "./components/BottomNav.js"
-import ToggleButton from "./components/ToggleButton.js"
-import Certification from "./components/Certification.js"
+import Header from "./pages/Header.js"
+import Hero from "./pages/Hero.js"
+import Projects from "./pages/Projects.js"
+import Contact from "./pages/Contact.js"
+import Footer from "./pages/Footer.js"
+import Socials from "./pages/Socials.js"
+import Skills from "./pages/Skills.js"
+import Certification from "./pages/Certification.js"
 
 function App() {
   return (
     <>
       <Header />
-      <Main />
-      <About />
+      <Hero />
       <Projects />
       <Certification />
-      <Testimonials />
+      <Skills />
       <Contact />
+      <Socials />
       <Footer />
-      <BottomNav />
-      <ToggleButton />
     </>
   );
 }
