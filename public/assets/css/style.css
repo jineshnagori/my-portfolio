@@ -23,8 +23,8 @@
 }
 
 ::selection {
-  background: var(--font-color);
-  color: var(--primary-color);
+  background: var(--primary-color);
+  color: var(--text-color);
 }
 
 body {
@@ -136,14 +136,13 @@ section {
   -webkit-animation: rays 10s linear infinite;
 }
 
-#toggleIcon {
+.menuItem i {
   cursor: pointer;
-  width: 100%;
-  height: 100%;
+  font-size: 1.5rem;
   color: var(--font-color);
 }
 
-#toggleIcon:hover {
+.menuItem i:hover {
   color: var(--text-color);
 }
 
@@ -299,6 +298,12 @@ section {
   font-weight: 500;
 }
 
+@media (max-width: 768px) {
+  .hero-btns>a {
+    padding: .6rem 1rem;
+  }
+}
+
 .hero-btns a>i {
   margin-left: 0.5rem;
 }
@@ -327,31 +332,21 @@ section {
 
 /* Skills */
 
-.skills-tag {
-  word-break: break-all;
-  margin-bottom: 10px;
-  margin-top: 10px;
+.skills-wrapper h2 {
+  color: var(--text-color);
 }
 
-.skills-tag ul li {
-  margin: 0px 6px;
-  border-radius: 4px;
-  margin-bottom: 10px;
-  padding: 4px 0px;
-  display: inline-block;
+.skills-visuals {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
 
-.skills-tag ul li span {
-  border-image: var(--secondary-color) 1;
-  border-color: var(--secondary-color);
-  border-style: solid;
-  border-width: 1px;
-  padding: 4px 10px;
-  border-radius: 4px;
+.skills-item {
+  padding-bottom: 1rem;
 }
 
-.skills-tag ul {
-  margin: 0;
-  padding: 0;
-  text-align: center;
+.skills-visual img {
+  width: 48px;
+  height: 48px;
 }

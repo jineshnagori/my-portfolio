@@ -10,10 +10,10 @@ function Header() {
                     </a>
                     <div class="menu">
                         <div class="menuItem">
-                            <a href="#projects">Projects</a>
+                            <a target="_blank" rel="noreferrer" href="https://github.com/jineshnagori"><i class="ri-github-fill"></i></a>
                         </div>
                         <div class="menuItem">
-                            <a href="#contact">Contact</a>
+                            <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/jineshnagori"><i class="ri-linkedin-fill"></i></a>
                         </div>
                         <div class="menuItem">
                             <div id="toggleMode">
