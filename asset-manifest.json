@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.d731a175.js",
+    "main.js": "/static/js/main.27f4a386.js",
     "static/js/787.7d9fdd40.chunk.js": "/static/js/787.7d9fdd40.chunk.js",
     "static/media/Jinesh-Resume.pdf": "/static/media/Jinesh-Resume.8a1153762327b181a31a.pdf",
     "index.html": "/index.html",
-    "main.d731a175.js.map": "/static/js/main.d731a175.js.map",
+    "main.27f4a386.js.map": "/static/js/main.27f4a386.js.map",
     "787.7d9fdd40.chunk.js.map": "/static/js/787.7d9fdd40.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.d731a175.js"
+    "static/js/main.27f4a386.js"
   ]
 }
