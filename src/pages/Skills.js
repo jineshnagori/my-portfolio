@@ -5,7 +5,7 @@ function Skills() {
     <>
       <section className="skills">
         <div className="skills-wrapper">
-          <h2>Skills</h2>
+          <h2>What's In My Head?</h2>
           <div className="skills-container">
             <div className="skills-item">
               <div className="skills-title">
@@ -57,7 +57,7 @@ function Skills() {
               </div>
               <div className="skills-visuals">
                 <div className="skills-visual">
-                  <img src="https://img.icons8.com/fluency/480/azure-1.png" alt="azure"/>
+                  <img src="https://img.icons8.com/color/480/azure-1.png" alt="azure"/>
                 </div>
               </div>
             </div>
@@ -70,10 +70,7 @@ function Skills() {
                   <img src="https://img.icons8.com/color/480/git.png" alt="git"/>
                 </div>
                 <div className="skills-visual">
-                  <img src="https://img.icons8.com/ios-glyphs/480/github.png" alt="github"/>
-                </div>
-                <div className="skills-visual">
-                  <img src="https://img.icons8.com/fluency/480/docker.png" alt="docker"/>
+                  <img src="https://img.icons8.com/color/480/docker.png" alt="docker"/>
                 </div>
                 <div className="skills-visual">
                   <img src="https://img.icons8.com/color/480/kubernetes.png" alt="kubernetes"/>
@@ -86,9 +83,6 @@ function Skills() {
                 </div>
                 <div className="skills-visual">
                   <img src="https://img.icons8.com/color/480/openshift.png" alt="openshift"/>
-                </div>
-                <div className="skills-visual">
-                  <img src="https://img.icons8.com/color/480/prometheus-app.png" alt="prometheus"/>
                 </div>
               </div>
             </div>
