@@ -1,0 +1,25 @@
+<section class="projects">
+    <div class="projects-wrapper">
+        <h2>Project Pizzazz</h2>
+        <div class="projects-container">
+            <div class="project-item" *ngFor="let project of projects" (click)="openUrl(project.url)">
+                <div class="project-title">
+                    <h4>{{ project.title }}</h4>
+                </div>
+                <div class="project-tags">
+                    <div class="project-tag" *ngFor="let tag of project.tags">
+                        {{ tag }}
+                    </div>
+                </div>
+                <div class="project-footer">
+                    <div class="link">
+                      <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="contactimg" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><title>application link</title><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                    </div>
+                    <div class="project-type">
+                        {{ project.type }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

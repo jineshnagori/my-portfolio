@@ -1,0 +1,17 @@
+<section class="skills">
+    <div class="skills-wrapper">
+        <h2>What's in my head?</h2>
+        <div class="skills-container">
+            <div class="skills-item" *ngFor="let category of skillCategories">
+                <div class="skills-title">
+                    <p>{{ category.title }}:</p>
+                </div>
+                <div class="skills-visuals">
+                    <div class="skills-visual" *ngFor="let skill of category.skills">
+                        <img [src]="skill.src" [alt]="skill.alt" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
