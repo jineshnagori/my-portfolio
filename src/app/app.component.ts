@@ -41,6 +41,5 @@ export class AppComponent {
         }
       }
     }, 100);
-    console.log('toggle theme from AppComponent');
   }
 }

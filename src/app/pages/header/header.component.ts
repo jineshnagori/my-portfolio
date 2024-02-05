@@ -1,4 +1,4 @@
-import { Component, Renderer2, ElementRef, HostListener, Output, EventEmitter } from '@angular/core';
+import { Component, Renderer2, ElementRef, HostListener, Output, EventEmitter, Input } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -25,7 +25,15 @@ export class HeaderComponent {
   @Output() toggleTheme = new EventEmitter<void>();
 
   onToggleTheme() {
-    console.log('toggle theme');
     this.toggleTheme.emit();
+  }
+
+  @Input() theme: string = 'dark';
+  class: string = 'hide';
+
+  ngOnChanges(changes: any) {
+    if(changes.theme) {
+      this.class = this.theme === 'dark' ? 'hide' : 'show';
+    }
   }
 }

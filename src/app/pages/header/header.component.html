@@ -12,8 +12,8 @@
             </div>
             <div class="menuItem">
                 <div id="toggleMode" (click)="onToggleTheme()">
-                  <i id="toggleIcon" class="moon ri-moon-fill show"></i>
-                  <i id="toggleIcon" class="sun ri-sun-fill hide"></i>
+                  <i id="toggleIcon" [hidden]="class === 'hide'" class="moon ri-moon-fill"></i>
+                  <i id="toggleIcon" [hidden]="class === 'show'" class="sun ri-sun-fill"></i>
                 </div>
             </div>
         </div>

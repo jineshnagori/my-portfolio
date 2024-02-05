@@ -27,7 +27,6 @@ export class HeroComponent {
   ngOnChanges(changes: any) {
     if(changes.theme) {
       this.class = this.theme === 'dark' ? 'hide' : 'show';
-      console.log('theme changed in HeroComponent', this.theme, this.class);
     }
   }
 }

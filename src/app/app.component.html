@@ -1,6 +1,6 @@
 <div id="simulateLightMode" data-theme="dark">
     <div id="root">
-        <app-header (toggleTheme)="onToggleTheme()"></app-header>
+        <app-header (toggleTheme)="onToggleTheme()"  [theme]="theme"></app-header>
         <app-hero [theme]="theme"></app-hero>
         <app-projects></app-projects>
         <app-skills></app-skills>
