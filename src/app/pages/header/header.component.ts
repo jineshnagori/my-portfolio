@@ -1,4 +1,4 @@
-import { Component, Renderer2, ElementRef, HostListener } from '@angular/core';
+import { Component, Renderer2, ElementRef, HostListener, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -20,5 +20,12 @@ export class HeaderComponent {
     } else {
       this.renderer.removeClass(header, 'overlayHeader');
     }
+  }
+
+  @Output() toggleTheme = new EventEmitter<void>();
+
+  onToggleTheme() {
+    console.log('toggle theme');
+    this.toggleTheme.emit();
   }
 }

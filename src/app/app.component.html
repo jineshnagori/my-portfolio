@@ -1,6 +1,10 @@
-<app-header></app-header>
-<app-hero></app-hero>
-<app-projects></app-projects>
-<app-skills></app-skills>
-<app-contact></app-contact>
-<app-footer></app-footer>
+<div id="simulateLightMode" data-theme="dark">
+    <div id="root">
+        <app-header (toggleTheme)="onToggleTheme()"></app-header>
+        <app-hero [theme]="theme"></app-hero>
+        <app-projects></app-projects>
+        <app-skills></app-skills>
+        <app-contact></app-contact>
+        <app-footer></app-footer>
+    </div>
+</div>
