@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
   styleUrl: './hero.component.css'
 })
 export class HeroComponent {
-  pdf: string = 'assets/documents/Jinesh-Resume.pdf';
+  pdf: string = 'assets/documents/Jinesh_Nagori.pdf';
 
   @Input() theme: string = 'dark';
   class: string = 'hide';

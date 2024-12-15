@@ -14,13 +14,13 @@ export class ProjectsComponent {
       title: 'Amit Computers & Printers',
       tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       type: 'Frontend',
-      url: 'https://amitcomputers.in',
+      url: 'https://jineshnagori.github.io/amitcomputers/',
     },
     {
       title: 'Vanguard United',
       tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap'],
       type: 'Frontend',
-      url: 'https://vanguard-united.com',
+      url: 'https://jineshnagori.github.io/vanguard-united/',
     },
     {
       title: 'SocketOS',
