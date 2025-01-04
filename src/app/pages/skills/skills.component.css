@@ -2,17 +2,162 @@
     color: var(--text-color);
 }
 
+.skills-area {
+    padding-bottom: 1rem;
+    opacity: 0.2;
+    transition: opacity 0.3s ease;
+}
+
+.brain-main-left .active {
+    opacity: 1;
+}
+
 .skills-visuals {
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
+.skills-visual img {
+    width: 48px;
+    height: 48px;
+}
+
 .skills-item {
     padding-bottom: 1rem;
 }
 
-.skills-visual img {
-    width: 48px;
-    height: 48px;
+.brain-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@keyframes dash {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+.brain-main-right {
+    position: relative;
+}
+
+.cls-1 {
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+}
+
+.brain-main-right {
+    width: 100%;
+    height: 100%;
+}
+
+.brain-main-right svg {
+    opacity: 0.5;
+}
+
+.brain-main-right .brain-part {
+    position: absolute;
+    cursor: pointer;
+}
+
+.brain-main-right .brain-part svg {
+    width: 200px;
+    fill: #cacaca;
+    stroke: var(--primary-color);
+    transform: scale(1);
+    transition: all 0.5s;
+}
+
+.brain-main-right .brain-part svg path {
+    pointer-events: all;
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: dash 2s linear forwards;
+}
+
+.brain-main-right .brain-part:hover svg,
+.brain-main-right .brain-part.active svg {
+    transform: scale(1.5);
+    opacity: 1;
+    stroke: var(--font-color);
+}
+
+.brain-main-right .brain-frontal-lobe {
+    top: 30px;
+    left: 0;
+}
+
+.brain-main-right .brain-frontal-lobe:hover svg,
+.brain-main-right .brain-frontal-lobe.active svg, 
+.brain-main-right .brain-cerebellum:hover svg,
+.brain-main-right .brain-cerebellum.active svg,
+.brain-main-right .brain-occipital-lobe:hover svg,
+.brain-main-right .brain-occipital-lobe.active svg,
+.brain-main-right .brain-parietal-lobe:hover svg,
+.brain-main-right .brain-parietal-lobe.active svg,
+.brain-main-right .brain-temporal-lobe:hover svg,
+.brain-main-right .brain-temporal-lobe.active svg,
+.brain-main-right .brain-stem:hover svg,
+.brain-main-right .brain-stem.active svg {
+    fill: var(--text-color);
+}
+
+.brain-main-right .brain-cerebellum {
+    top: 265px;
+    left: 215px;
+}
+
+.brain-main-right .brain-cerebellum svg {
+    width: 160px;
+}
+
+.brain-main-right .brain-occipital-lobe {
+    top: 130px;
+    left: 280px;
+}
+
+.brain-main-right .brain-occipital-lobe svg {
+    width: 140px;
+}
+
+.brain-main-right .brain-parietal-lobe {
+    top: 30px;
+    left: 180px;
+}
+
+.brain-main-right .brain-temporal-lobe {
+    top: 170px;
+    left: 95px;
+}
+
+.brain-main-right .brain-temporal-lobe svg {
+    width: 220px;
+}
+
+.brain-main-right .brain-stem {
+    top: 310px;
+    left: 180px;
+}
+
+.brain-main-right .brain-stem svg {
+    width: 140px;
+}
+
+.brain-cerebellum:hover, .brain-frontal-lobe:hover, .brain-occipital-lobe:hover, .brain-parietal-lobe:hover, .brain-stem:hover, .brain-temporal-lobe:hover {
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px) {
+    .brain-main {
+        grid-template-columns: 1fr;
+    }
+
+    .brain-main-right {
+        display: none;
+    }
+    
+    .skills-area {
+        opacity: 1;
+    }
 }

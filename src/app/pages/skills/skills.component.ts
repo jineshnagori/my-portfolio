@@ -14,7 +14,6 @@ export class SkillsComponent {
       title: 'Cloud',
       skills: [
         { src: 'https://img.icons8.com/color/480/azure-1.png', alt: 'azure' },
-        { src: 'https://img.icons8.com/color/480/amazon-web-services.png', alt: 'aws' },
       ],
     },
     {
@@ -25,6 +24,7 @@ export class SkillsComponent {
         { src: 'https://img.icons8.com/color/480/kubernetes.png', alt: 'kubernetes' },
         { src: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-development-experience-through-the-native-integrations-of-azure-with-visual-studio-logo-color-tal-revivo.png', alt: 'azure-devops' },
         { src: 'https://img.icons8.com/color/480/openshift.png', alt: 'openshift' },
+        { src: 'https://img.icons8.com/color/480/jenkins.png', alt: 'jenkins' },
       ],
     },
     {
@@ -50,7 +50,7 @@ export class SkillsComponent {
         { src: 'https://img.icons8.com/color/480/javascript--v1.png', alt: 'javascript' },
         { src: 'https://img.icons8.com/color/480/bash.png', alt: 'bash' },
         { src: 'https://img.icons8.com/color/480/python--v1.png', alt: 'python' },
-        { src: 'https://img.icons8.com/officel/480/php-logo.png', alt: 'php' },
+        { src: 'https://img.icons8.com/color/480/powershell.png', alt: 'powershell' },
         { src: 'https://img.icons8.com/color/480/mysql-logo.png', alt: 'mysql' },
       ],
     },
@@ -58,10 +58,22 @@ export class SkillsComponent {
       title: 'Libraries/Frameworks',
       skills: [
         { src: 'https://img.icons8.com/external-those-icons-flat-those-icons/480/external-Bootstrap-Logo-social-media-those-icons-flat-those-icons.png', alt: 'bootstrap' },
-        { src: 'https://img.icons8.com/officel/480/react.png', alt: 'react' },
         { src: 'https://img.icons8.com/external-tal-revivo-color-tal-revivo/480/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-color-tal-revivo.png', alt: 'jquery' },
+        { src: 'https://img.icons8.com/officel/480/react.png', alt: 'react' },
         { src: 'https://img.icons8.com/color/480/angularjs.png', alt: 'angularjs' },
       ],
     },
   ];
+
+  activeCategory: string = '';
+
+  setActiveCategory(category: string): void {
+    this.activeCategory = category;
+    console.log('activeCategory', this.activeCategory);
+  }
+
+  clearActiveCategory(): void {
+    this.activeCategory = '';
+    console.log('activeCategory', this.activeCategory);
+  }
 }
